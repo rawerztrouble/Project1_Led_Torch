@@ -522,222 +522,6 @@
 				)
 			)
 		)
-		(symbol "NA555_CU:NA555_NL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 5.842 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NA555_NL"
-				(at -7.874 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-				(at 23.622 8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ne555.pdf"
-				(at 24.384 -14.986 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "New Library created symbol"
-				(at -16.002 -16.256 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "555, NA555, NA555_NL, NL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NA555_NL_0_1"
-				(rectangle
-					(start -7.62 6.35)
-					(end 7.62 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NA555_NL_1_1"
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "TRIG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 3.81 0)
-					(length 2.54)
-					(name "RESET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "CONT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "TRESH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "DISCH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 8.89 270)
-					(length 2.54)
-					(name "Vcc"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_DPST_x2"
 			(pin_names
 				(offset 0) hide)
@@ -918,7 +702,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 114.3) (xy 147.32 114.3)
+			(xy 124.46 114.3) (xy 147.32 114.3)
 		)
 		(stroke
 			(width 0)
@@ -928,7 +712,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 88.9) (xy 177.8 88.9)
+			(xy 171.45 88.9) (xy 181.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -938,7 +722,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 114.3) (xy 177.8 114.3)
+			(xy 154.94 114.3) (xy 181.61 114.3)
 		)
 		(stroke
 			(width 0)
@@ -958,7 +742,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 127 114.3)
+			(xy 124.46 88.9) (xy 124.46 114.3)
 		)
 		(stroke
 			(width 0)
@@ -968,7 +752,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 129.54 88.9)
+			(xy 124.46 88.9) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
@@ -978,7 +762,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 114.3) (xy 177.8 88.9)
+			(xy 181.61 114.3) (xy 181.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1196,94 +980,6 @@
 			(project ""
 				(path "/f64fce91-1a45-4290-821e-720d0742f49b"
 					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NA555_CU:NA555_NL")
-		(at 81.28 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9088f504-8aac-4ec2-8120-b36d6931a7fb")
-		(property "Reference" "U1"
-			(at 83.4741 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NA555_NL"
-			(at 83.4741 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 104.902 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ne555.pdf"
-			(at 105.664 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "New Library created symbol"
-			(at 65.278 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f7dc0ebc-0fb5-4d71-a2d7-0d8b4ad859c7")
-		)
-		(pin "7"
-			(uuid "f186f992-7eff-44de-8b11-05e0578eb9bc")
-		)
-		(pin "2"
-			(uuid "3d2ccafa-22a9-4ade-b055-165fbc612db5")
-		)
-		(pin "8"
-			(uuid "5ceb5f0e-f5cf-482b-b1a8-20dcdabda93b")
-		)
-		(pin "1"
-			(uuid "06b47d51-d018-4d62-bec3-607565c7dbb4")
-		)
-		(pin "4"
-			(uuid "58c781a1-7524-41cc-8f27-067040c38ec5")
-		)
-		(pin "5"
-			(uuid "7a028080-7669-4214-a540-d33e2c0c2e26")
-		)
-		(pin "6"
-			(uuid "65434aef-2b01-4912-af84-3fc14445f892")
-		)
-		(instances
-			(project ""
-				(path "/f64fce91-1a45-4290-821e-720d0742f49b"
-					(reference "U1")
 					(unit 1)
 				)
 			)
