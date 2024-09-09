@@ -63,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "battery cell"
+			(property "ki_keywords" "battery"
 				(at 0 0 0)
 				(effects
 					(font
